@@ -302,9 +302,12 @@ h2 {
     text-align: center;
 }
 
-.oneoptions h5, .optionstwo h5 {
+.oneoptions p, .optionstwo p {
+    position: relative;
+    bottom: 16px;
     text-align: left;
     font-size: 27px;
+    font-weight: bold;
     color: gray;
     text-transform: uppercase;
     font-family: 'Bebas' cursive;
@@ -312,7 +315,9 @@ h2 {
 }
 
 .oneoptions a, .optionstwo a {
-    float: right;
+    position: relative;
+    bottom: 70px;
+    left: 50px;
     font-size: 20px;
     color: white;
     text-transform: uppercase;
